@@ -18,7 +18,7 @@ function Winner(){
 
     if(player1 === 'paper' && player2 === 'rock') winner = 'PLAYER 1 WIN !!!'
     if(player1 === 'rock' && player2 === 'scissors') winner = 'PLAYER 1 WIN !!!'
-    if(player === 'scissors' && player2 === 'paper') winner = 'PLAYER 1 WIN !!!'
+    if(player1 === 'scissors' && player2 === 'paper') winner = 'PLAYER 1 WIN !!!'
     if(player2 === 'paper' && player1 === 'rock') winner = 'PLAYER 2 WIN !!!'
     if(player2 === 'rock' && player1 === 'scissors') winner = 'PLAYER 2 WIN !!!'
     if(player2 === 'scissors' && player1 === 'paper') winner = 'PLAYER 2 WIN !!!' 
